@@ -1,0 +1,167 @@
+.popup--back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 50;
+}
+
+.popup--content {
+  width: 60%;
+  height: 450px;
+  background-color: white;
+  border-radius: 8px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.popup--close {
+  font-weight: bold;
+  font-size: 30px;
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+}
+
+.optn,
+.numb {
+  padding: 4px;
+  margin: 5px;
+  background-color: rgb(216, 216, 216);
+  border: none;
+}
+.subbreed-div {
+  display: flex;
+  overflow-x: scroll;
+  margin-top: 0;
+}
+
+.btn {
+  padding: 7px;
+  float: right;
+  margin-top: 8px;
+  background-color: green;
+  color: white;
+  border-radius: 10%;
+}
+.header {
+  background-color: rgb(250, 82, 255);
+  padding: 0.3px;
+}
+.randombreed {
+  border: 2px solid white;
+  background-color: #d6d6d6;
+  border-radius: 10%;
+}
+.h {
+  text-align: center;
+}
+.diva {
+  background-color: rgb(216, 216, 216);
+  padding: 1px;
+}
+/*/////////////////////////*/
+/* .button {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid #06D85F;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: #06D85F;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 0.5s;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 0.5s;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup h2 {
+  margin: 10px;
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 16px;
+}
+.popup h2 {
+  margin: 10px;
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 16px;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+} */
+.customPopBtn {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: green;
+  color: white;
+  padding: 4px;
+}
+.divimg {
+  
+  /* height: 100px;
+  width: 100px;
+  border: 2px solid white;
+  background-color: #d6d6d6;
+  border-radius: 10%;
+
+  display: flex; align-items: center; justify-content: center */
+  height: 150px;
+    width: 150px;
+    background:#d6d6d6;
+    border-radius: 10%;
+    border: 2px solid white;
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+}
